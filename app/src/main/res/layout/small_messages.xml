@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#0A7B1111" android:padding="50px" android:gravity="center">
+
+    <TextView
+            android:text="Request Sent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Instruct" android:gravity="center"
+            android:fontFamily="@font/coiny" android:textColor="@color/fui_bgEmail" android:textSize="22sp"/>
+    <TextView
+            android:text="You can now send message from the Message Tab."
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/textView9" android:gravity="center"
+            android:padding="17px"/>
+    <Button
+            android:text="Perfect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/CoolOk"
+            android:background="@drawable/ccc_textfield" android:layout_margin="40px"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="600px"
+            android:layout_height="match_parent" android:gravity="center|center_horizontal|center_vertical"
+            android:layout_gravity="center">
+    </LinearLayout>
+</LinearLayout>

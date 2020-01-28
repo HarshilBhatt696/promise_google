@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+              android:layout_height="match_parent" android:orientation="vertical"
+              android:background="@color/NewMatchCell">
+
+    <TextView
+            android:text="Decribe yourself "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/DescribeText" android:layout_weight="0"
+            android:textSize="140px" android:padding="120px" android:fontFamily="@font/boogaloo"
+            android:textColor="@color/fui_bgEmail"/>
+    <TextView
+            android:text="Write about 25-50 words"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView4" android:layout_weight="0"
+            android:layout_marginStart="120px" android:textColor="@color/TextColors"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:gravity="center">
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"
+                android:gravity="start|top"
+                android:ems="10"
+                android:id="@+id/AnswerText" android:layout_weight="0"
+                android:layout_margin="90px" android:hint="I am foodie..."/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:layout_weight="0" android:gravity="center">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" app:srcCompat="@drawable/ic_send_black_24dp"
+                    android:id="@+id/Back" android:layout_weight="0" android:rotation="180"
+                    android:foregroundGravity="left|center_vertical|center|center_horizontal"
+                    android:layout_margin="80px" android:layout_gravity="center" android:visibility="gone"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:layout_weight="1">
+            </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:clickable="true" app:srcCompat="@drawable/go_right"
+                    android:id="@+id/NextButton"
+                    android:layout_weight="0" android:layout_margin="80px" android:layout_gravity="center"
+                    android:background="@drawable/acceptbutton"
+                    app:backgroundTint="@color/MatchedWithDark"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+

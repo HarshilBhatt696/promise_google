@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:layout_margin="30px">
+
+    <TextView
+            android:text="Block User"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/instruct" android:gravity="center"
+            android:fontFamily="@font/coiny" android:textColor="@color/fui_bgEmail" android:textSize="22sp"/>
+    <TextView
+            android:text="Once you Block the user you will never be able to revert the decision"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textView8" android:gravity="center"
+            android:padding="17px"/>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <Button
+                android:text="Cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/Cancel"
+                android:background="@drawable/ccc_textfield" android:layout_margin="10px" android:layout_weight="1"/>
+        <Button
+                android:text="Yes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/Yes" android:layout_weight="1"
+                android:background="@drawable/acceptbutton" android:layout_margin="10px"/>
+    </LinearLayout>
+</LinearLayout>

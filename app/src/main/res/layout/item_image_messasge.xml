@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp">
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/LinearLayoutGravity1">
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/LayoutKubear">
+
+            <ImageView
+                    android:id="@+id/imageView_message_image"
+                    android:layout_width="250dp"
+                    android:layout_height="wrap_content"
+                    android:scaleType="fitCenter"
+                    android:adjustViewBounds="true"
+                    android:paddingStart="8dp"
+                    android:paddingEnd="8dp"
+                    android:paddingTop="4dp"
+                    tools:src="@drawable/rect_round_primary_color"
+                    android:layout_marginTop="10px" android:layout_marginStart="10px" android:layout_marginEnd="10px"
+                    android:layout_marginBottom="10px"/>
+            <TextView
+                    android:id="@+id/textView_message_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/imageView_message_image"
+                    android:layout_alignEnd="@id/imageView_message_image"
+                    android:layout_marginEnd="8dp"
+                    android:textSize="10sp"
+                    tools:text="3/15/2018 3:00 PM"
+                    android:layout_alignBaseline="@id/imageView_message_image"
+            />
+        </RelativeLayout>
+        <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/LinearLayoutGravity">
+
+        </RelativeLayout>
+    </LinearLayout>
+</FrameLayout>

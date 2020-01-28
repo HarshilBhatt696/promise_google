@@ -1,0 +1,159 @@
+{
+  "project_info": {
+    "project_number": "997666762112",
+    "firebase_url": "https://minstger.firebaseio.com",
+    "project_id": "minstger",
+    "storage_bucket": "minstger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997666762112:android:134d2d3399d68dd0ca2565",
+        "android_client_info": {
+          "package_name": "com.example.minster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997666762112-5kpe5h1q1l0r3iee3a0houlp5jocresm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minster",
+            "certificate_hash": "7aea4c42c8a2344d8783d1bc2edd385ebc8469dc"
+          }
+        },
+        {
+          "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPNdliEpcyUITRVq4UlQABEMBiSOX1M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997666762112:android:92d91ebfd9084964ca2565",
+        "android_client_info": {
+          "package_name": "com.example.minsters"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997666762112-3n84nhmlsgv9jjghhjvf0otpato26b53.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.minsters",
+            "certificate_hash": "7aea4c42c8a2344d8783d1bc2edd385ebc8469dc"
+          }
+        },
+        {
+          "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPNdliEpcyUITRVq4UlQABEMBiSOX1M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997666762112:android:cd5ea84187519048ca2565",
+        "android_client_info": {
+          "package_name": "com.example.tipster"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997666762112-d5eikstm36tev7scpb3mpb6v3pvh38ik.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tipster",
+            "certificate_hash": "7aea4c42c8a2344d8783d1bc2edd385ebc8469dc"
+          }
+        },
+        {
+          "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPNdliEpcyUITRVq4UlQABEMBiSOX1M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:997666762112:android:f5a0815550fb554bca2565",
+        "android_client_info": {
+          "package_name": "my.promise.harshil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "997666762112-attt4lpiarmes5j2q74hofpl4uaufopv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "my.promise.harshil",
+            "certificate_hash": "7aea4c42c8a2344d8783d1bc2edd385ebc8469dc"
+          }
+        },
+        {
+          "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMPNdliEpcyUITRVq4UlQABEMBiSOX1M4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "997666762112-b3upelpav89fptoqipc0q5vonsl7bnhb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

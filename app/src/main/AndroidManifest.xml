@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="my.promise.harshil">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+            android:allowBackup="true"
+            android:fullBackupContent="true"
+            android:icon="@mipmap/main_app_icon_round"
+            android:label="@string/app_name"
+            android:largeHeap="true"
+            android:supportsRtl="true"
+            android:theme="@style/AppTheme"
+            tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name="my.promise.harshil.card_stack_view">
+        </activity>
+        <activity
+                android:name="my.promise.harshil.ChatActivity"
+                android:theme="@style/AppThemeGoIt">
+            <intent-filter>
+                <action android:name="ChatActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="my.promise.harshil.MainPage"
+                android:label="@string/title_activity_main_page"
+                android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="RequestActivity"/>
+
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name="my.promise.harshil.SplashActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="my.promise.harshil.Interest">
+        </activity>
+        <activity android:name="my.promise.harshil.DateInfo">
+        </activity>
+        <activity android:name="my.promise.harshil.MainActivity">
+        </activity>
+        <activity android:name="my.promise.harshil.login_mobile">
+        </activity>
+        <activity android:name="my.promise.harshil.UserInfor">
+        </activity>
+        <activity android:name="my.promise.harshil.SetImage">
+        </activity>
+        <activity android:name="my.promise.harshil.specify_gender">
+        </activity>
+
+        <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="my.promise.harshil.MainActivity"/>
+        <meta-data
+                android:name="preloaded_fonts"
+                android:resource="@array/preloaded_fonts"/>
+        <meta-data
+                android:name="com.google.firebase.messaging.default_notification_icon"
+                android:resource="@drawable/ic_group_add_black_24dp"/>
+
+        <service android:name="my.promise.harshil.Service.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+        <service android:name="my.promise.harshil.Service.MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

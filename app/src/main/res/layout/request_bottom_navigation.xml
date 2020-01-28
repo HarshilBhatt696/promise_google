@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <Button
+            android:text="Accept"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/AcceptIt"
+            android:background="@drawable/acceptbutton" android:layout_margin="20px"/>
+    <Button
+            android:text="Decline"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/DeclineIt"
+            android:background="@drawable/declinebutton" android:layout_margin="20px"/>
+</LinearLayout>

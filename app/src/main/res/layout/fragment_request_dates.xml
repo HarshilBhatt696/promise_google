@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Fragment.Request_dates" android:background="#E6EDF3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Button
+            android:text="Refresh"
+            android:layout_width="125px"
+            android:layout_height="75px" android:id="@+id/button4" android:layout_gravity="right"
+            android:background="@drawable/acceptbutton" android:textSize="8sp"
+            android:layout_marginEnd="80px"
+            android:layout_marginTop="80px" android:textAllCaps="false"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/Refresh">
+        <TextView
+                android:text="Requests from"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/Requests"
+                android:textColor="@android:color/black" android:fontFamily="@font/boogaloo" android:textSize="25sp"
+                android:layout_marginTop="70px" android:layout_marginStart="70px" android:layout_marginBottom="80px"/>
+        <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/RequestRecycler"
+                android:layout_marginStart="70px" android:layout_marginEnd="70px" android:layout_marginBottom="40px"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/noMoreItems"
+                android:textColor="@android:color/black" android:textSize="14sp" android:gravity="center"
+                android:fontFamily="@font/cutive" android:visibility="gone"
+                android:text="No Request yet"/>
+    </LinearLayout>
+
+</FrameLayout>

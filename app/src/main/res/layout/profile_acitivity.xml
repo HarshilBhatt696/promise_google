@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                  android:orientation="vertical">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent"
+                      android:orientation="vertical">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:id="@+id/GirlsImage" android:layout_margin="70px"
+                    android:layout_weight="1">
+                <ImageButton
+                        android:layout_width="55px"
+                        android:layout_height="55px"
+                        android:id="@+id/Cancel" android:background="@drawable/acceptbutton"
+                        android:layout_margin="20px" android:foregroundGravity="left"
+                        android:src="@drawable/com_facebook_tooltip_blue_xout"
+                        android:layout_gravity="right"/>
+                <ImageView
+                        android:layout_width="600px"
+                        android:layout_height="600px" app:srcCompat="@drawable/c"
+                        android:id="@+id/UserImage" android:layout_gravity="center"/>
+                <TextView
+                        android:text="Alison"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/UserNames" android:textSize="100px"
+                        android:fontFamily="@font/andada" android:textColor="@color/colorAccent"
+                        android:padding="10px"/>
+                <TextView
+                        android:text="Being innovative and creative is what a computer science students always seeks. Seeks a spark of opportunity  to create something so innovative that could change the way people see the world, I believe in the theory - that it is not to create something that is already created, but to create,  what no one could think could ever be created. that’s what computer science student I want to be . "
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/UserDescribe" android:textSize="45px"
+                        android:padding="20px" android:layout_margin="20px" android:fontFamily="@font/damion"/>
+                <Button
+                        android:text="Block"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" android:id="@+id/Block"
+                        android:background="@drawable/c" android:layout_margin="80px" android:visibility="visible"/>
+            </LinearLayout>
+        </LinearLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:id="@+id/view"/>
+    </LinearLayout>
+</LinearLayout>

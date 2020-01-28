@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical" android:gravity="right">
+            <TextView
+                    android:text="TERMS AND CONDITIONS By using prom- ise you are consenting to the following terms of use. You must read and agree to our terms of use, because it forms a binding contract between you    and prom-ise. Acceptance: By using these services, you are consenting to the terms and conditions. Eligibility: You must possess a unique code provided by the promoters. Any code provided  by other sources will not be acceptable. Providing codes to users not eligible to join:Provision of these codes to any person other than intended to, or any form of publication of these codes,  would lead to violation of a contract which would trigger your account to be deactivated. Liability: The promoters undertake no liability for any privacy invasion issues. This is an app developed only  to help create interactions. Termination of service: We reserve the right to modify or discontinue this service at any point of time.You can terminate your account via the settings page and we reserve the  rights to do the same as well if you violate this agreement and we feel your use of the account is inappropriate and against our terms of use. Safety: Prom- ise is not responsible for any actions of any user or your  interactions with another user, and we do not conduct background checks. Your safety is solely your responsibility. Disclaimer: We disclaim any legal liability for the quality, safety or  reliability of our service. Identification: By using this service, you are also consenting to provide real names and phone numbers. Sharing of information: By using this app, you are  consenting to share information such as your name, gender and profile picture to other users. Your profile will be visible to anyone who has match-made with you. Arbitration: Our agreement  contains a mandatory arbitration clause. You agree that any dispute will be settled only by arbitration, arbitration chamber chosen by the prom-ise team, and wave your right to trial by jury or to participate in a  class action. Indemnity: You agree to indemnify us for actions arising out of your use of the service, your content or your violation of this agreement. Privacy: You are responsible for any activity that  occurs under your screen name. You are also responsible to keep your password secure. You may not use the service for any illegal or unauthorized activity either. Alterations in the contract:  We reserve the rights to make changes to the contract at any time without prior notice to the users. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:id="@+id/textView11" android:layout_margin="30px"/>
+            <Button
+                    android:text="Accept"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/Accept"
+                    android:background="@drawable/chat_message_text"
+                    android:layout_margin="40px"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

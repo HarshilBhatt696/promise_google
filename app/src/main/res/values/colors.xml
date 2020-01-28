@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="MatchedWithDark">#D8AC1B</color>
+    <color name="NormalBackground">#2A2D2F</color>
+    <color name="TextColors">#240B36</color>
+    <color name="NewMatchCell">#ECF2F9</color>
+
+</resources>

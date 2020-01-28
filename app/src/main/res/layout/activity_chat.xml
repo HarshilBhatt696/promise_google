@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/NewMatchCell"
+              tools:context=".ChatActivity" android:orientation="vertical">
+
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" android:background="@drawable/bottomnav"
+                    android:layout_weight="1">
+                <androidx.recyclerview.widget.RecyclerView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" android:layout_weight="1" android:padding="20px"
+                        android:layout_margin="5px" android:id="@+id/recyclerForMessages">
+                </androidx.recyclerview.widget.RecyclerView>
+                <RelativeLayout android:layout_width="wrap_content"
+                                android:layout_height="wrap_content" android:layout_gravity="bottom">
+
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:layout_gravity="bottom" android:layout_weight="0">
+                <com.google.android.material.floatingactionbutton.FloatingActionButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="8dp"
+                        android:src="@drawable/add_reminder_24dp"
+                        app:fabSize="mini"
+                        android:id="@+id/Image_Clicker" android:layout_gravity="center" android:layout_margin="7px"/>
+                <com.google.android.material.textfield.TextInputEditText android:layout_width="match_parent"
+
+                                                                         android:layout_height="wrap_content"
+                                                                         android:layout_marginBottom="8dp"
+                                                                         android:background="@drawable/chat_message_text"
+                                                                         android:elevation="2dp"
+                                                                         android:hint="Send your thoughts"
+                                                                         android:padding="8dp"
+                                                                         android:id="@+id/EditTextMessages"
+                                                                         android:layout_weight="5"
+                                                                         android:layout_gravity="center"
+                                                                         android:layout_margin="7px"
+                                                                         android:maxHeight="200px"/>
+                <ImageButton
+                        android:layout_width="75px"
+                        android:layout_height="75px" app:srcCompat="@drawable/ic_chevron_right_black_24dp"
+                        android:id="@+id/SendItems" android:layout_weight="0"
+                        android:background="@drawable/acceptbutton" android:layout_gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>

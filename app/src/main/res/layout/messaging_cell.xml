@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              tools:context=".Messaging" android:layout_margin="20px"
+              android:background="@drawable/messaging_cell_draw">
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_weight="0" android:foregroundGravity="left"
+            android:gravity="left" android:id="@+id/ImageView">
+        <ImageView
+                android:src="@drawable/add_reminder_24dp"
+                android:layout_width="150px"
+                android:layout_height="150px" android:id="@+id/imageView3" android:layout_weight="0"
+                android:layout_margin="30px" android:foregroundGravity="center_vertical|center"
+        />
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="0" android:gravity="center">
+        <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="0">
+
+            <TextView
+                    android:text="Username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" android:id="@+id/UserName"
+                    android:textSize="65px" android:gravity="center|center_horizontal|center_vertical"
+                    android:foregroundGravity="center_vertical|center|center_horizontal"
+                    android:textColor="@android:color/black"
+                    android:layout_gravity="center|center_horizontal|top|left|center_vertical"
+                    android:fontFamily="@font/baloo_da" android:layout_margin="30px"/>
+            <Button
+                    android:text="1"
+                    android:layout_width="75px"
+                    android:layout_height="75px" android:id="@+id/button6"
+                    android:background="@drawable/roundish" android:layout_gravity="center|right"
+                    android:layout_margin="20px"/>
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

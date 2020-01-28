@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context=".Fragment.match_makin" android:orientation="vertical" android:gravity="bottom"
+              android:visibility="visible" android:background="#E6EDF3">
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_weight="1" android:id="@+id/factes">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="0">
+            <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" android:gravity="center" android:layout_gravity="center"
+                    android:layout_weight="0" android:paddingTop="40px">
+                <Button
+                        android:text="Match Make "
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/MatchMake"
+                        android:background="@drawable/onlymatchmakebutton"
+                        android:textColor="@color/browser_actions_bg_grey"
+                        android:layout_gravity="center" android:paddingLeft="50px" android:paddingRight="50px"
+                        android:layout_weight="0" android:layout_marginRight="30px"/>
+                <Button
+                        android:text="Old Matches"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/OldMatches" android:layout_weight="0"
+                        android:background="@drawable/onlymatchmakebutton" android:paddingLeft="50px"
+                        android:paddingRight="50px" android:textColor="@color/NewMatchCell"
+                        android:layout_marginLeft="30px" android:visibility="gone"/>
+            </LinearLayout>
+            <Button
+                    android:text="You can only send 2 Requests a Day  "
+                    android:layout_width="match_parent"
+                    android:id="@+id/button8"
+                    android:background="@drawable/bottomnav"
+                    android:visibility="gone" android:layout_height="wrap_content"
+                    android:textColor="@color/fui_bgGitHub" android:layout_margin="30px"/>
+            <com.airbnb.lottie.LottieAnimationView android:layout_width="match_parent"
+                                                   android:layout_height="500px"
+                                                   android:id="@+id/HEs" app:lottie_loop="true"
+                                                   app:lottie_rawRes="@raw/heartloader" app:lottie_autoPlay="false"
+                                                   android:layout_weight="0"
+                                                   android:visibility="visible" android:layout_marginLeft="70px"
+                                                   android:layout_marginRight="70px"/>
+        </LinearLayout>
+    </FrameLayout>
+    <androidx.viewpager.widget.ViewPager android:layout_width="match_parent"
+                                         android:layout_height="match_parent" android:id="@+id/viewPager"
+                                         android:layout_centerVertical="false"
+                                         android:layout_centerHorizontal="false"
+    >
+    </androidx.viewpager.widget.ViewPager>
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/MainList" android:layout_weight="1"
+            android:layout_margin="30px" android:visibility="gone">
+    </androidx.recyclerview.widget.RecyclerView>
+    <TextView
+            android:text="Servers for match making will start on 3rd February "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_weight="1" android:visibility="gone"
+            android:id="@+id/serversMessage"/>
+
+</LinearLayout>

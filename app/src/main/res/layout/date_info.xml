@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DateInfo" android:orientation="vertical" android:fadingEdgeLength="9dp">
+
+    <ImageButton
+            android:layout_width="75px"
+            android:layout_height="50px"
+            android:id="@+id/Cancel" android:background="@drawable/acceptbutton"
+            android:layout_margin="20px" android:foregroundGravity="left"
+            android:src="@drawable/com_facebook_tooltip_blue_xout"
+            android:layout_gravity="right"/>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/GirlsImage" android:layout_margin="70px">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="600px" app:srcCompat="@drawable/c"
+                android:id="@+id/UserImage"/>
+        <TextView
+                android:text="Alison"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/UserNames" android:textSize="100px"
+                android:fontFamily="@font/andada" android:textColor="@color/colorAccent" android:padding="10px"
+                android:visibility="gone"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:layout_margin="70px">
+        <TextView
+                android:text="Being innovative and creative is what a computer science students always seeks. Seeks a spark of opportunity  to create something so innovative that could change the way people see the world, I believe in the theory - that it is not to create something that is already created, but to create,  what no one could think could ever be created. that’s what computer science student I want to be . "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/UserDescribe" android:textSize="45px"
+                android:padding="20px" android:layout_margin="20px" android:fontFamily="@font/damion"/>
+        <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" android:layout_weight="0" android:visibility="visible"
+                android:gravity="center" android:foregroundGravity="center_vertical">
+            <ImageButton
+                    android:layout_width="156px"
+                    android:layout_height="156px" app:srcCompat="@drawable/ic_cancel_black_24dp"
+                    android:id="@+id/DeclineCross"
+                    android:layout_weight="0" tools:srcCompat="@drawable/ic_cancel_black_24dp"
+                    android:background="@drawable/bottomnav" android:layout_gravity="center_horizontal"
+            />
+            <ImageButton
+                    android:layout_width="156px"
+                    android:layout_height="156px" app:srcCompat="@drawable/send_request_page"
+                    android:id="@+id/MatchMakeChat"
+                    android:layout_weight="0" tools:srcCompat="@drawable/send_request_page"
+                    android:background="@drawable/bottomnav" android:layout_gravity="center_horizontal"
+                    android:layout_margin="120px"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
